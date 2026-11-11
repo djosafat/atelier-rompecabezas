@@ -1,24 +1,5 @@
-ATELIER · ROMPECABEZAS 5.0 — INSTALACIÓN PWA
+Atelier Rompecabezas 6.1
 
-CONTENIDO
-index.html: juego completo
-manifest.webmanifest: configuración de instalación
-service-worker.js: archivos necesarios para uso sin conexión
-icons/: iconos de Android
+Sube el CONTENIDO de esta carpeta a la raiz de tu repositorio GitHub Pages, reemplazando los archivos existentes. Conserva la carpeta icons.
 
-PUBLICACIÓN GRATIS CON GITHUB PAGES
-1. Crea una cuenta en https://github.com si todavía no tienes.
-2. Crea un repositorio público, por ejemplo atelier-rompecabezas.
-3. En el repositorio usa Add file > Upload files y sube index.html, manifest.webmanifest, service-worker.js y la carpeta icons con sus dos PNG. Conserva la estructura de carpetas.
-4. En Settings > Pages, selecciona Deploy from a branch; elige main y /(root), y guarda.
-5. Espera a que aparezca el enlace de GitHub Pages, normalmente https://USUARIO.github.io/atelier-rompecabezas/.
-6. Abre ese enlace en Chrome de Android. Desde el menú ⋮ elige Instalar aplicación o Añadir a pantalla de inicio, según lo que ofrezca el navegador.
-7. Abre la app desde su icono. Después de la primera carga completa, el juego puede funcionar sin conexión.
-
-IMPORTANTE
-- Abrir index.html directamente como archivo local permite jugar, pero no instalar la PWA ni activar su modo sin conexión.
-- El enlace de Pages depende del nombre de tu cuenta y repositorio.
-- Las fotos se procesan en tu dispositivo; no se envían a servidores de la aplicación.
-- Galería y récords se guardan en el almacenamiento del origen de la PWA. Los datos de versiones abiertas como archivos locales no se transfieren automáticamente al nuevo sitio.
-- No borres los datos del sitio si deseas conservar las fotos y récords.
-- GitHub Pages exige que el repositorio sea público en cuentas gratuitas; no subas fotos personales al repositorio, solo los archivos de código e iconos.
+Novedades: piezas fijas al acertar, sonido opcional y mensaje OK! durante 1.5 segundos.

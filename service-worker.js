@@ -1,4 +1,4 @@
-const CACHE = 'atelier-rompecabezas-v5-1';
+const CACHE = 'atelier-rompecabezas-v6-1-locked';
 const ASSETS = ['./', './index.html', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS)).then(() => self.skipWaiting()));
